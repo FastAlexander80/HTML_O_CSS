@@ -1,0 +1,43 @@
+html{
+    margin: 0;
+}
+.hej{
+    text-align: center;
+    top: 0%;
+    position: sticky; 
+    color: black;
+    z-index: 5;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.andra{
+    display: flex;
+    justify-content: space-around;
+}
+.nr1{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(232, 218, 218);
+}
+.nr1:hover{
+    background-color: rgb(184, 174, 174);
+}
+
+.bild{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.bild2{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    height: 80%;
+}
